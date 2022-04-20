@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Spravochnik</string>
+    <string name="empty">Empty</string>
+    <string name="press_in_tank">Давление в мембранном баке</string>
+
+    <string name="heating_system">  Система отопления: минус 0,2 атм от давления холодной системы. \n
+        \n
+        Система холодного водоснабжения: минус 0,2 атм от давления включения насоса(нижний предел).\n
+        \n
+        Система ГВС: плюс 0,2 атм к давлению включения насоса(верхний предел)</string>
+    <string name="press_html">Press HTML</string>
+
+</resources>
