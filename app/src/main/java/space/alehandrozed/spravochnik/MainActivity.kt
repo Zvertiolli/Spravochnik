@@ -12,12 +12,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClick(view: View) {
-        val intent = Intent(this,TankBarActivity::class.java)
-        startActivity(intent)
+
     }
 
     fun onClickHTML(view: View) {
-        val intent = Intent(this,ContentActivity::class.java)
+        val intent = Intent(this,HtmlActivity::class.java)
         startActivity(intent)
     }
 }

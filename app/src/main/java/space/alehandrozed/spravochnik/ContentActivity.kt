@@ -1,18 +1,19 @@
 package space.alehandrozed.spravochnik
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.press_bar_layout.*
+import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_html.*
+
 
 class ContentActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.content_layout)
-        setContentView(R.layout.press_bar_layout)
+        setContentView(R.layout.activity_content)
 
 //        textViewTitle.text = intent.getStringExtra("title")
 //        textViewContent.text = intent.getStringExtra("content")
 //        imageViewContent.setImageResource(intent.getIntExtra("image", R.drawable.som))
-        wvPressTank.loadUrl("file:///android_asset/1.html")
+        webView.loadUrl("file:///android_asset/item_02.html")
     }
 }
